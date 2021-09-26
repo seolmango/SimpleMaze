@@ -1,2 +1,0 @@
-SimpleMaze_JJAP
-maze
