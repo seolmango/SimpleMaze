@@ -5,7 +5,7 @@ with open('README.md','r') as f:
 
 setup(name='SimpleMaze_JJAP', # 패키지 명
 
-version='1.0.0.5',
+version='1.0.0.6',
 
 description='Simple Maze Module, made by JJAPDABOTTEAM',
 
