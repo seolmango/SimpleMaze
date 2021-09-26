@@ -14,7 +14,7 @@ url='https://github.com/Seol7523/SimpleMaze',
 
 license='MIT', # MIT에서 정한 표준 라이센스 따른다
 
-py_modules=['maze.maze.py'], # 패키지에 포함되는 모듈
+py_modules=['maze.py'], # 패키지에 포함되는 모듈
 
 python_requires='>=3',
 
