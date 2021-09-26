@@ -1,1 +1,2 @@
+SimpleMaze_JJAP
 maze

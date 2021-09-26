@@ -1,5 +1,7 @@
 README.md
 setup.py
+SimpleMaze_JJAP/__init__.py
+SimpleMaze_JJAP/maze.py
 SimpleMaze_JJAP.egg-info/PKG-INFO
 SimpleMaze_JJAP.egg-info/SOURCES.txt
 SimpleMaze_JJAP.egg-info/dependency_links.txt

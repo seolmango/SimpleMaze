@@ -5,7 +5,7 @@ with open('README.md','r') as f:
 
 setup(name='SimpleMaze_JJAP', # 패키지 명
 
-version='1.0.0.4',
+version='1.0.0.5',
 
 description='Simple Maze Module, made by JJAPDABOTTEAM',
 
@@ -18,6 +18,8 @@ url='https://github.com/Seol7523/SimpleMaze',
 license='MIT', # MIT에서 정한 표준 라이센스 따른다
 
 py_modules=['maze'], # 패키지에 포함되는 모듈
+
+packages=['SimpleMaze_JJAP'],
 
 python_requires='>=3',
 
