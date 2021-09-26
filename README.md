@@ -37,3 +37,9 @@ size : the size of one block(px). I recommend 10.
 location : the location of file. It is **not relative**.
 
 
+
+made by JJAPDABOTTEAM
+
+1. Seol7523
+2. Mossygoldcoin
+
