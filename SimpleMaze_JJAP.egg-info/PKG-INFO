@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: SimpleMaze-JJAP
+Version: 1.0.0.3
+Summary: Simple Maze Module, made by JJAPDABOTTEAM
+Home-page: https://github.com/Seol7523/SimpleMaze
+Author: Seol7523
+Author-email: seolchaehwan@naver.com
+License: MIT
+Description: # SimpleMaze
+        
+        ## Quick Start
+        
+        ```
+        from maze import maze
+        import os
+        now = os.getcwd()
+        
+        
+        a = maze()
+        a.create(200 , 200)
+        a.save(False , 10 , now + "\\200x200 maze.jpg")  # No answer
+        a.save(True , 10 , now + "\\200x200 maze_answer.jpg") # With answer
+        ```
+        
+        ## Functions
+        
+        ### **1. self.create(x,y)**
+        
+        create maze and save that maze.
+        
+        self.maze : data of maze (list)
+        
+        self.image : data of maze(no answer) image
+        
+        self.answerImage : data of maze(answer) image
+        
+        ### **2. self.save(answer,size,location)**
+        
+        make image file with self.image and self.answerImage. 
+        
+        answer : True or False. True, the image have answer
+        
+        size : the size of one block(px). I recommend 10.
+        
+        location : the location of file. It is **not relative**.
+        
+        
+        
+        made by JJAPDABOTTEAM
+        
+        1. Seol7523
+        2. Mossygoldcoin
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown

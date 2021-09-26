@@ -1,5 +1,8 @@
 from setuptools import setup, find_packages
 
+with open('README.md','r') as f:
+	long_description = f.read()
+
 setup(name='SimpleMaze_JJAP', # 패키지 명
 
 version='1.0.0.3',
@@ -20,5 +23,7 @@ python_requires='>=3',
 
 install_requires=[], # 패키지 사용을 위해 필요한 추가 설치 패키지
 
-long_description=open('README.md').read()
+long_description=long_description,
+
+long_description_content_type='text/markdown'
 )
