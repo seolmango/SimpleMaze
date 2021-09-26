@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: SimpleMaze-JJAP
-Version: 1.0.0.3
+Version: 1.0.0.4
 Summary: Simple Maze Module, made by JJAPDABOTTEAM
 Home-page: https://github.com/Seol7523/SimpleMaze
 Author: Seol7523
@@ -11,7 +11,7 @@ Description: # SimpleMaze
         ## Quick Start
         
         ```
-        from maze import maze
+        from SimpleMaze_JJAP import maze
         import os
         now = os.getcwd()
         

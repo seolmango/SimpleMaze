@@ -3,7 +3,7 @@
 ## Quick Start
 
 ```
-from maze import maze
+from SimpleMaze_JJAP import maze
 import os
 now = os.getcwd()
 

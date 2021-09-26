@@ -6,7 +6,7 @@ from PIL import Image
 mazeColor = {0: (127, 127, 127), 1: (255, 255, 255), 2: (255, 127, 0), 3: (0, 0, 0), 4: (0, 255, 0), 5: (255, 0, 0)}
 
 
-class maze():
+class Maze():
 
 
     def create(self, width : int, height : int):
